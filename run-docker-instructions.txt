@@ -1,0 +1,5 @@
+# Build docker image
+docker build -t app .
+
+#Run docker 
+docker run -p 8501:8501 app
